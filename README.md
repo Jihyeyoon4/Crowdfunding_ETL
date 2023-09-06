@@ -1,13 +1,13 @@
 # Crowdfunding_ETL
 
-Team member 
+## Team member 
 
-    Nikita Gahoi
-    Jihye Yoon
+-Nikita Gahoi
+-Jihye Yoon
 
-Project Proposal
+## Project Proposal
 
-    Our team engaged in hands-on experience by constructing an ETL (Extract, Transform, Load) pipeline utilizing Python and Pandas. We used Python dictionaries and Regex methods to efficiently extract and reshape the data. Following the data transformation, we generated four CSV files, which served as the foundation for constructing both an Entity-Relationship Diagram (ERD) and a table schema. Finally, we imported the CSV data into a Postgres database. 
+Our team engaged in hands-on experience by constructing an ETL (Extract, Transform, Load) pipeline utilizing Python and Pandas. We used Python dictionaries and Regex methods to efficiently extract and reshape the data. Following the data transformation, we generated four CSV files, which served as the foundation for constructing both an Entity-Relationship Diagram (ERD) and a table schema. Finally, we imported the CSV data into a Postgres database. 
 
 1. Create the Category and Subcategory DataFrames - Nikita
 
@@ -25,9 +25,9 @@ Extract and transform the data to create DataFrames.
 7. Verify that each table has the correct data by running a SELECT statement for each
 
 
-Our team used 
+## Our team used 
 Jupyter Notebooks, Pandas, Numpy, PostGresSQL, QuickDBD
 
-References
+## References
 
 https://bootcampspot.instructure.com/courses/4549/assignments/56924?module_item_id=1002774
