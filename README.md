@@ -2,8 +2,8 @@
 
 ## Team member 
 
--Nikita Gahoi
--Jihye Yoon
+- Nikita Gahoi
+- Jihye Yoon
 
 ## Project Proposal
 
