@@ -19,7 +19,7 @@ Majorly this project was divided into the following sub-sections:
 
 - Create the Campaign DataFrame - Nikita
      - Extracted and transformed the Excel data (crowdfunding.xlsx) to create a campaign DataFrame:
-     - Renamed a few columns: "blurb" : "description", "launched_at" : "launched_date", and "deadline" : "end_date".
+     - Renamed a few columns: "blurb": "description", "launched_at": "launched_date", and "deadline": "end_date".
      - Changed the data type of few columns:
           - Converted the "goal" and "pledged columns" to a `float` data type
           - Formated the "launched_date" and "end_date" columns to datetime format
