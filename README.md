@@ -12,12 +12,14 @@ Our team engaged in hands-on experience by constructing an ETL (Extract, Transfo
 Majorly this project was divided into the following sub-sections:
 
 - Create the Category and Subcategory DataFrames - Nikita
+
 Extracted and transformed the Excel data (crowdfunding.xlsx) to create Category and Subcategory DataFrames:
      - Extracted all the unique values for Categories and Subcategories
     - Created numpy arrays from 1-9 for the categories and 1-24 for the subcategories
     - Used a list comprehension to add "cat" to each category_id and "subcat" to each subcategory_id
 
 - Create the Campaign DataFrame - Nikita
+  
  Extracted and transformed the Excel data (crowdfunding.xlsx) to create a campaign DataFrame:
     - Renamed a few columns: "blurb" : "description", "launched_at" : "launched_date", and "deadline" : "end_date".
     - Changed the data type of few columns:
