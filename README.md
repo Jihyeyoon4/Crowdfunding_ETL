@@ -35,7 +35,7 @@ Extracted and transformed the Excel data (crowdfunding.xlsx) to create Category 
     - Split each "name" column value into a first and last name, and place each in a new column
     - Clean DataFrame was then and exported as contacts.csv and saved to GitHub repository.
 
-- Create the Crowdfunding Database: ERD diagram- Jihye  and table Schema - Jihye and Nikita
+- Create the Crowdfunding Database: ERD diagram- Jihye; table Schema - Jihye and Nikita
     - Inspect the four CSV files, and then sketch an ERD of the tables by using QuickDBD:
 
         ![ERD-Crowdfunding_ETL](https://github.com/NikitaGahoi/Web_Scrapping_Challenge/assets/136101293/f58edea2-9366-48bc-af72-94d7ae076dcc)
