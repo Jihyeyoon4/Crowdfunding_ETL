@@ -13,20 +13,20 @@ Majorly this project was divided into the following sub-sections:
 
 - Create the Category and Subcategory DataFrames - Nikita
      - Extracted and transformed the Excel data (crowdfunding.xlsx) to create Category and Subcategory DataFrames:
-     - Extracted all the unique values for Categories and Subcategories
-     - Created numpy arrays from 1-9 for the categories and 1-24 for the subcategories
-     - Used a list comprehension to add "cat" to each category_id and "subcat" to each subcategory_id
+          - Extracted all the unique values for Categories and Subcategories
+          - Created numpy arrays from 1-9 for the categories and 1-24 for the subcategories
+          - Used a list comprehension to add "cat" to each category_id and "subcat" to each subcategory_id
 
 - Create the Campaign DataFrame - Nikita
   
- Extracted and transformed the Excel data (crowdfunding.xlsx) to create a campaign DataFrame:
-    - Renamed a few columns: "blurb" : "description", "launched_at" : "launched_date", and "deadline" : "end_date".
-    - Changed the data type of few columns:
-         - Converted the "goal" and "pledged columns" to a `float` data type
-        - Formated the "launched_date" and "end_date" columns to datetime format
-    - Merged the dataframes on "category" and "sub-categories"
-    - Deleted a few unwanted columns
-    - Clean DataFrame was then and exported as campaign.csv and saved to GitHub repository.
+      - Extracted and transformed the Excel data (crowdfunding.xlsx) to create a campaign DataFrame:
+         - Renamed a few columns: "blurb" : "description", "launched_at" : "launched_date", and "deadline" : "end_date".
+         - Changed the data type of few columns:
+              - Converted the "goal" and "pledged columns" to a `float` data type
+             - Formated the "launched_date" and "end_date" columns to datetime format
+         - Merged the dataframes on "category" and "sub-categories"
+         - Deleted a few unwanted columns
+         - Clean DataFrame was then and exported as campaign.csv and saved to GitHub repository.
 
 - Create the Contacts DataFrame - Jihye
     - Imported the contacts.xlsx file into a DataFrame and converted each row to a dictionary
