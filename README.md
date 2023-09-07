@@ -36,10 +36,10 @@ Extracted and transformed the Excel data (crowdfunding.xlsx) to create Category 
     - Clean DataFrame was then and exported as contacts.csv and saved to GitHub repository.
 
 - Create the Crowdfunding Database: ERD diagram- Jihye; table Schema - Jihye and Nikita
-    - Inspect the four CSV files, and then sketch an ERD of the tables by using QuickDBD:
+    - Inspect the four CSV files, and then sketch an ERD of the tables by using QuickDBD - Jihye
 
         ![ERD-Crowdfunding_ETL](https://github.com/NikitaGahoi/Web_Scrapping_Challenge/assets/136101293/f58edea2-9366-48bc-af72-94d7ae076dcc)
-    - Use the information from the ERD to create a table schema for each CSV file
+    - Use the information from the ERD to create a table schema for each CSV file - Jihye and Nikita
     - Save the database schema as a Postgres file named crowdfunding_db_schema.sql, and save it to your GitHub repository.
     - Import each CSV file into its corresponding SQL table.
     - Verified that each table has the correct data by running a SELECT statement for each 
